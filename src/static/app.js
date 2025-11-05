@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
           });
           participantsHTML += '</ul>';
         } else {
-          participantsHTML += '<p class="no-participants">Nenhum participante inscrito ainda</p>';
+          participantsHTML += '<p class="no-participants">No participants enrolled yet</p>';
         }
         participantsHTML += '</div>';
 
