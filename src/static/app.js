@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Build participants list HTML
         let participantsHTML = '<div class="participants-list">';
-        participantsHTML += `<h5>Participantes inscritos <span class="participants-count">${details.participants.length}</span></h5>`;
+        participantsHTML += `<h5>Enrolled Participants <span class="participants-count">${details.participants.length}</span></h5>`;
         if (details.participants.length > 0) {
           participantsHTML += '<ul>';
           details.participants.forEach(email => {
